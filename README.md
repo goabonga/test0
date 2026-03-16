@@ -46,7 +46,7 @@ make docker-up
 ### Helm
 
 ```bash
-helm install shomer oci://ghcr.io/goabonga/shomer-chart/shomer --version 0.0.0
+helm install shomer oci://ghcr.io/goabonga/shomer-chart/shomer --version 0.1.0
 ```
 
 ## Development

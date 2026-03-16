@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test0001"
-version = "0.0.0"
+version = "0.1.0"
 description = "OIDC/OAuth2 authentication service."
 authors = ["Chris <goabonga@pm.me>"]
 license = "MIT"
@@ -130,7 +130,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.0.0"
+version = "0.1.0"
 tag_format = "v$version"
 update_changelog_on_bump = true
 changelog_file = "CHANGELOG.md"

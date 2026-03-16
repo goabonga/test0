@@ -301,7 +301,8 @@ jobs:
           cd gh-pages
           git add .
           git commit -S -m "docs: publish docs for v${{ needs.bump_and_build.outputs.version }}"
-          git remote set-url origin ${{ env.GH_REPO_URL }}
+          git remote remove origin 2>/dev/null || true
+          git remote add origin ${{ env.GH_REPO_URL }}
           git push origin gh-pages
 
   # ============================================

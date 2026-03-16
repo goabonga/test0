@@ -3,7 +3,7 @@
 
 from shomer import __version__
 
-__expected_version__: str = "0.2.0"
+__expected_version__: str = "0.3.0"
 
 
 def test_version() -> None:

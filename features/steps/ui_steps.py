@@ -5,7 +5,7 @@ from pathlib import Path
 
 from behave import then, when
 
-__expected_version__: str = "0.2.0"
+__expected_version__: str = "0.3.0"
 
 SCREENSHOTS_DIR = Path("screenshots")
 

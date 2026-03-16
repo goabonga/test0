@@ -1,3 +1,9 @@
+## v0.3.0 (2026-03-16)
+
+### Feat
+
+- **release**: fix pipeline and readme
+
 ## v0.2.0 (2026-03-16)
 
 ### Feat

@@ -51,8 +51,8 @@ helm install shomer oci://ghcr.io/goabonga/shomer-chart/shomer --version 0.2.0
 
 ## Development
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution guide.
+See [CONTRIBUTING.md](https://github.com/goabonga/test0/blob/main/CONTRIBUTING.md) for the full contribution guide.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/goabonga/test0/blob/main/LICENSE)

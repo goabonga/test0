@@ -15,7 +15,7 @@ permissions:
 env:
   GH_USERNAME: ${{ github.event.head_commit.author.name }}
   GH_EMAIL: ${{ github.event.head_commit.author.email }}
-  GH_REPO_URL: https://goabonga:${{ secrets.GH_TOKEN }}@github.com/goabonga/test0.git
+  GH_REPO_URL: https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/goabonga/test0.git
   PYTHON_DEFAULT_VERSION: "3.11"
   POETRY_VERSION: "2.1.1"
 
